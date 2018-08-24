@@ -1,0 +1,53 @@
+Partlist
+
+Exported from ColorsoundPowerBooster.sch at 1/15/18 4:43 PM
+
+EAGLE Version 8.4.1 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Device       Package     Library         Sheet
+
++18V1    +18V(T)        +18V(T)      SQUARE      mb_supply       1
+BASS     B100k          POT16MM      16MM        mb_pots         1
+C1       0.22uF         072X0252     072X025     mb_caps-box     1
+C2       22uF           0501         050_020_1   mb_caps-electro 1
+C3       220pF          050X030_0251 050X030_025 mb_caps-ceramic 1
+C4       10uF           0501         050_020_1   mb_caps-electro 1
+C5       22uF           0501         050_020_1   mb_caps-electro 1
+C6       0.01uF         072X0252     072X025     mb_caps-box     1
+C7       0.1uF          072X0252     072X025     mb_caps-box     1
+C8       0.1uF          072X0252     072X025     mb_caps-box     1
+C9       0.01uF         072X0252     072X025     mb_caps-box     1
+C10      22uF           0501         050_020_1   mb_caps-electro 1
+C11      10uF           0501         050_020_1   mb_caps-electro 1
+C12      0.22uF         072X0252     072X025     mb_caps-box     1
+C13      22uF           0501         050_020_1   mb_caps-electro 1
+D1       LED            LED3MM       LED3MM      mb_diodes       1
+D2       1N58174        1N58174      DO41-4      mb_diodes       1
+GAIN     A10k           POT16MM      16MM        mb_pots         1
+GND1     GND(T)         GND(T)       SQUARE      mb_supply       1
+IN1      IN(T)          IN(T)        SQUARE      mb_supply       1
+LED                     PAD          SQUARE      mb_supply       1
+OUT1     OUT(T)         OUT(T)       SQUARE      mb_supply       1
+Q1       BC169          BC109        TO92-       mb_trans        1
+Q2       BC184          BC109        TO92-       mb_trans        1
+Q3       BC109          BC109        TO92-       mb_trans        1
+R1       4k7            6MM.3        R0207/3     mb_resistors    1
+R2       120k           6MM.3        R0207/3     mb_resistors    1
+R3       4k7            6MM.3        R0207/3     mb_resistors    1
+R4       150k           6MM.3        R0207/3     mb_resistors    1
+R5       12k            6MM.3        R0207/3     mb_resistors    1
+R6       1k8            6MM.3        R0207/3     mb_resistors    1
+R7       470R           6MM.3        R0207/3     mb_resistors    1
+R8       1k2            6MM.3        R0207/3     mb_resistors    1
+R9       4k7            6MM.3        R0207/3     mb_resistors    1
+R10      39k            6MM.3        R0207/3     mb_resistors    1
+R11      5k6            6MM.3        R0207/3     mb_resistors    1
+R12      4k7            6MM.3        R0207/3     mb_resistors    1
+R13      180k           6MM.3        R0207/3     mb_resistors    1
+R14      33k            6MM.3        R0207/3     mb_resistors    1
+R15      3k9            6MM.3        R0207/3     mb_resistors    1
+R16      1k             6MM.3        R0207/3     mb_resistors    1
+TREBLE   B100k          POT16MM      16MM        mb_pots         1
+VOLUME   A100k          POT16MM      16MM        mb_pots         1
