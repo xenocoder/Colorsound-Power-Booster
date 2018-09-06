@@ -1,14 +1,14 @@
 Partlist
 
-Exported from ColorsoundPowerBooster.sch at 1/15/18 4:43 PM
+Exported from ColorsoundPowerBooster.sch at 9/5/18 7:40 PM
 
-EAGLE Version 8.4.1 Copyright (c) 1988-2017 Autodesk, Inc.
+EAGLE Version 9.1.0 Copyright (c) 1988-2018 Autodesk, Inc.
 
 Assembly variant: 
 
 Part     Value          Device       Package     Library         Sheet
 
-+18V1    +18V(T)        +18V(T)      SQUARE      mb_supply       1
++9V      +9V(T)         +9V(T)       SQUARE      mb_supply       1
 BASS     B100k          POT16MM      16MM        mb_pots         1
 C1       0.22uF         072X0252     072X025     mb_caps-box     1
 C2       22uF           0501         050_020_1   mb_caps-electro 1
@@ -23,13 +23,28 @@ C10      22uF           0501         050_020_1   mb_caps-electro 1
 C11      10uF           0501         050_020_1   mb_caps-electro 1
 C12      0.22uF         072X0252     072X025     mb_caps-box     1
 C13      22uF           0501         050_020_1   mb_caps-electro 1
+C14      100uF          0801         080_035_1   mb_caps-electro 1
+C15      10uF           0501         050_020_1   mb_caps-electro 1
+C16      10uF           0501         050_020_1   mb_caps-electro 1
+C17      10uF           0501         050_020_1   mb_caps-electro 1
 D1       LED            LED3MM       LED3MM      mb_diodes       1
 D2       1N58174        1N58174      DO41-4      mb_diodes       1
+D3       1N4001         1N400X.3     DO41-3      mb_diodes       1
+D4       1N5817         1N5817       DO41-3      mb_diodes       1
+D5       1N5817         1N5817       DO41-3      mb_diodes       1
+G        GND(T)         GND(T)       SQUARE      mb_supply       1
+G6       GND(T)         GND(T)       SQUARE      mb_supply       1
 GAIN     A10k           POT16MM      16MM        mb_pots         1
-GND1     GND(T)         GND(T)       SQUARE      mb_supply       1
-IN1      IN(T)          IN(T)        SQUARE      mb_supply       1
+IC1      MAX1044        MAX1044      DIL08       mb_ics          1
+IN       IN(T)          IN(T)        SQUARE      mb_supply       1
+JIG      GND(T)         GND(T)       SQUARE      mb_supply       1
+JIN                     PAD          SQUARE      mb_supply       1
+JIN1                    PAD          SQUARE      mb_supply       1
+JO1                     PAD          SQUARE      mb_supply       1
+JOG      GND(T)         GND(T)       SQUARE      mb_supply       1
+JOUT1                   PAD          SQUARE      mb_supply       1
 LED                     PAD          SQUARE      mb_supply       1
-OUT1     OUT(T)         OUT(T)       SQUARE      mb_supply       1
+OUT      OUT(T)         OUT(T)       SQUARE      mb_supply       1
 Q1       BC169          BC109        TO92-       mb_trans        1
 Q2       BC184          BC109        TO92-       mb_trans        1
 Q3       BC109          BC109        TO92-       mb_trans        1
