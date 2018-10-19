@@ -1,68 +1,62 @@
-Partlist
+Partlist exported from /Users/evanhowell/git/Colorsound Power Booster/ColorsoundPowerBooster.sch at 10/18/18 6:27 PM
 
-Exported from ColorsoundPowerBooster.sch at 9/5/18 7:40 PM
-
-EAGLE Version 9.1.0 Copyright (c) 1988-2018 Autodesk, Inc.
-
-Assembly variant: 
-
-Part     Value          Device       Package     Library         Sheet
-
-+9V      +9V(T)         +9V(T)       SQUARE      mb_supply       1
-BASS     B100k          POT16MM      16MM        mb_pots         1
-C1       0.22uF         072X0252     072X025     mb_caps-box     1
-C2       22uF           0501         050_020_1   mb_caps-electro 1
-C3       220pF          050X030_0251 050X030_025 mb_caps-ceramic 1
-C4       10uF           0501         050_020_1   mb_caps-electro 1
-C5       22uF           0501         050_020_1   mb_caps-electro 1
-C6       0.01uF         072X0252     072X025     mb_caps-box     1
-C7       0.1uF          072X0252     072X025     mb_caps-box     1
-C8       0.1uF          072X0252     072X025     mb_caps-box     1
-C9       0.01uF         072X0252     072X025     mb_caps-box     1
-C10      22uF           0501         050_020_1   mb_caps-electro 1
-C11      10uF           0501         050_020_1   mb_caps-electro 1
-C12      0.22uF         072X0252     072X025     mb_caps-box     1
-C13      22uF           0501         050_020_1   mb_caps-electro 1
-C14      100uF          0801         080_035_1   mb_caps-electro 1
-C15      10uF           0501         050_020_1   mb_caps-electro 1
-C16      10uF           0501         050_020_1   mb_caps-electro 1
-C17      10uF           0501         050_020_1   mb_caps-electro 1
-D1       LED            LED3MM       LED3MM      mb_diodes       1
-D2       1N58174        1N58174      DO41-4      mb_diodes       1
-D3       1N4001         1N400X.3     DO41-3      mb_diodes       1
-D4       1N5817         1N5817       DO41-3      mb_diodes       1
-D5       1N5817         1N5817       DO41-3      mb_diodes       1
-G        GND(T)         GND(T)       SQUARE      mb_supply       1
-G6       GND(T)         GND(T)       SQUARE      mb_supply       1
-GAIN     A10k           POT16MM      16MM        mb_pots         1
-IC1      MAX1044        MAX1044      DIL08       mb_ics          1
-IN       IN(T)          IN(T)        SQUARE      mb_supply       1
-JIG      GND(T)         GND(T)       SQUARE      mb_supply       1
-JIN                     PAD          SQUARE      mb_supply       1
-JIN1                    PAD          SQUARE      mb_supply       1
-JO1                     PAD          SQUARE      mb_supply       1
-JOG      GND(T)         GND(T)       SQUARE      mb_supply       1
-JOUT1                   PAD          SQUARE      mb_supply       1
-LED                     PAD          SQUARE      mb_supply       1
-OUT      OUT(T)         OUT(T)       SQUARE      mb_supply       1
-Q1       BC169          BC109        TO92-       mb_trans        1
-Q2       BC184          BC109        TO92-       mb_trans        1
-Q3       BC109          BC109        TO92-       mb_trans        1
-R1       4k7            6MM.3        R0207/3     mb_resistors    1
-R2       120k           6MM.3        R0207/3     mb_resistors    1
-R3       4k7            6MM.3        R0207/3     mb_resistors    1
-R4       150k           6MM.3        R0207/3     mb_resistors    1
-R5       12k            6MM.3        R0207/3     mb_resistors    1
-R6       1k8            6MM.3        R0207/3     mb_resistors    1
-R7       470R           6MM.3        R0207/3     mb_resistors    1
-R8       1k2            6MM.3        R0207/3     mb_resistors    1
-R9       4k7            6MM.3        R0207/3     mb_resistors    1
-R10      39k            6MM.3        R0207/3     mb_resistors    1
-R11      5k6            6MM.3        R0207/3     mb_resistors    1
-R12      4k7            6MM.3        R0207/3     mb_resistors    1
-R13      180k           6MM.3        R0207/3     mb_resistors    1
-R14      33k            6MM.3        R0207/3     mb_resistors    1
-R15      3k9            6MM.3        R0207/3     mb_resistors    1
-R16      1k             6MM.3        R0207/3     mb_resistors    1
-TREBLE   B100k          POT16MM      16MM        mb_pots         1
-VOLUME   A100k          POT16MM      16MM        mb_pots         1
+Part   Value   Device       Package     Description        
++9V    +9V(T)  +9V(T)       SQUARE      +9V Voltage Supply 
++9V1   +9V(T)  +9V(T)       SQUARE      +9V Voltage Supply 
+BASS   B100k   POT16MM      16MM        Potentiometers     
+C1     0.22uF  072X0252     072X025     1000pF - 0.47uF    
+C2     22uF    0501         050_020_1   0.22 - 100uF       
+C3     220pF   050X030_0251 050X030_025 47 - 120pF         
+C4     10uF    0501         050_020_1   0.22 - 100uF       
+C5     22uF    0501         050_020_1   0.22 - 100uF       
+C6     0.01uF  072X0252     072X025     1000pF - 0.47uF    
+C7     0.1uF   072X0252     072X025     1000pF - 0.47uF    
+C8     0.1uF   072X0252     072X025     1000pF - 0.47uF    
+C9     0.01uF  072X0252     072X025     1000pF - 0.47uF    
+C10    22uF    0501         050_020_1   0.22 - 100uF       
+C11    10uF    0501         050_020_1   0.22 - 100uF       
+C12    0.22uF  072X0252     072X025     1000pF - 0.47uF    
+C13    22uF    0501         050_020_1   0.22 - 100uF       
+C14    100uF   0801         080_035_1   47 - 470uF         
+C15    10uF    0501         050_020_1   0.22 - 100uF       
+C16    10uF    0501         050_020_1   0.22 - 100uF       
+C17    10uF    0501         050_020_1   0.22 - 100uF       
+D1     LED     LED3MM       LED3MM                         
+D2     1N58174 1N58174      DO41-4                         
+D3     1N4001  1N400X.3     DO41-3      Rectifier Diodes   
+D4     1N5817  1N5817       DO41-3                         
+D5     1N5817  1N5817       DO41-3                         
+G      GND(T)  GND(T)       SQUARE      Ground             
+G6     GND(T)  GND(T)       SQUARE      Ground             
+GAIN   A10k    POT16MM      16MM        Potentiometers     
+IC1    MAX1044 MAX1044      DIL08                          
+IN     IN(T)   IN(T)        SQUARE      Input              
+JIG    GND(T)  GND(T)       SQUARE      Ground             
+JIN            PAD          SQUARE      PAD                
+JIN1           PAD          SQUARE      PAD                
+JO1            PAD          SQUARE      PAD                
+JOG    GND(T)  GND(T)       SQUARE      Ground             
+JOUT1          PAD          SQUARE      PAD                
+LED            PAD          SQUARE      PAD                
+OUT    OUT(T)  OUT(T)       SQUARE      Output             
+Q1     BC169   BC109        TO92-                          
+Q2     BC184   BC109        TO92-                          
+Q3     BC109   BC109        TO92-                          
+R1     4k7     6MM.3        R0207/3     6mm Resistors      
+R2     120k    6MM.3        R0207/3     6mm Resistors      
+R3     4k7     6MM.3        R0207/3     6mm Resistors      
+R4     150k    6MM.3        R0207/3     6mm Resistors      
+R5     12k     6MM.3        R0207/3     6mm Resistors      
+R6     1k8     6MM.3        R0207/3     6mm Resistors      
+R7     470R    6MM.3        R0207/3     6mm Resistors      
+R8     1k2     6MM.3        R0207/3     6mm Resistors      
+R9     4k7     6MM.3        R0207/3     6mm Resistors      
+R10    39k     6MM.3        R0207/3     6mm Resistors      
+R11    5k6     6MM.3        R0207/3     6mm Resistors      
+R12    4k7     6MM.3        R0207/3     6mm Resistors      
+R13    180k    6MM.3        R0207/3     6mm Resistors      
+R14    33k     6MM.3        R0207/3     6mm Resistors      
+R15    3k9     6MM.3        R0207/3     6mm Resistors      
+R16    1k      6MM.3        R0207/3     6mm Resistors      
+TREBLE B100k   POT16MM      16MM        Potentiometers     
+VOLUME A100k   POT16MM      16MM        Potentiometers     
